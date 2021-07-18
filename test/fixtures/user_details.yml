@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyText
+  pan_card: MyText
+  adhar_card: MyText
+  account_number: MyText
+  account_ifsc: MyText
+  mo_in_flow: 1
+  mo_out_flow: 1
+
+two:
+  email: MyText
+  pan_card: MyText
+  adhar_card: MyText
+  account_number: MyText
+  account_ifsc: MyText
+  mo_in_flow: 1
+  mo_out_flow: 1

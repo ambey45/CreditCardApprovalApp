@@ -1,0 +1,19 @@
+<%= link_to 'View all application', user_details_path %>
+<p><b>Application to check eligibility for credit card</b></p>
+<div class= "details"><%= form_for @user do |f| %>
+ <p><%= f.label :email %>
+ <%= f.email_field :email %></p>
+ <p><%= f.label :pan_card %>
+ <%= f.text_field :pan_card %></p>
+ <p><%= f.label :adhar_card %>
+ <%= f.text_field :adhar_card %></p>
+ <p><%= f.label :account_number %>
+ <%= f.text_field :account_number %></p>
+ <p><%= f.label :account_ifsc %>
+ <%= f.text_field :account_ifsc %></p>
+ <p><%= f.label :mo_in_flow %>
+ <%= f.text_field :mo_in_flow %></p>
+ <p><%= f.label :mo_out_flow %>
+ <%= f.text_field :mo_out_flow %></p>
+ <%= f.submit 'Submit' %>
+<% end %></div>
